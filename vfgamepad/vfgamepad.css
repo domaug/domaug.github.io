@@ -1,12 +1,12 @@
 /*BEGIN Fight Stick Controller Styling*/
 /*If this breaks, change "custom" to "fight-stick".*/
-.controller.custom {
+.controller.fight-stick {
     background: url(vfbase.png) center;
     height: 534px;
     width: 1122px;
 }
 
-.custom .arrows {
+.fight-stick .arrows {
     position: absolute;
     width: 70px;
     height: 217px;
@@ -14,7 +14,7 @@
     left: 49px;
 }
 
-.custom .button {
+.fight-stick .button {
     width: 123px;
     height: 123px;
     background: #333333;
@@ -24,27 +24,27 @@
     position: absolute;
 }
 
-.custom .button.pressed {
+.fight-stick .button.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(1);
 }
 
-.custom .a {
+.fight-stick .a {
     bottom: 0px;
     left: 0px;
 }
 
-.custom .x {
+.fight-stick .x {
     top: 66px;
     left: 33px
 }
 
-.custom .y {
+.fight-stick .y {
     right: 0px;
     top: 0px;
 }
 
-.custom .fstick {
+.fight-stick .fstick {
     position: absolute;
     width: 221px;
     height: 221px;
@@ -53,35 +53,35 @@
     background: url(vfstick.png)
 }
 
-.custom .fstick.up {
+.fight-stick .fstick.up {
     background-position-x: -1762px;
 }
 
-.custom .fstick.down {
+.fight-stick .fstick.down {
     background-position-x: -882px;
 }
 
-.custom .fstick.left {
+.fight-stick .fstick.left {
     background-position-x: -1322px;
 }
 
-.custom .fstick.right {
+.fight-stick .fstick.right {
     background-position-x: -442px;
 }
 
-.custom .fstick.up.right {
+.fight-stick .fstick.up.right {
     background-position-x: -222px;
 }
 
-.custom .fstick.up.left {
+.fight-stick .fstick.up.left {
     background-position-x: -1542px;
 }
 
-.custom .fstick.down.right {
+.fight-stick .fstick.down.right {
     background-position-x: -662px;
 }
 
-.custom .fstick.down.left {
+.fight-stick .fstick.down.left {
     background-position-x: -1102px;
 }
 
